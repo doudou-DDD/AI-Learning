@@ -1,0 +1,13 @@
+print('hello world')
+print('this is a test file')
+name = input('what is your name? ')
+#name = input('what is your name? ').strip().title()
+name =name.strip().title()
+name=name.capitalize()
+name=name.title()
+print(f'Hello, {name}!')
+print('hello, ', name, '!')
+def hello(to="World"):
+    print(f'Hello, {to}!')
+name = input('what is your name? ')
+hello(name)

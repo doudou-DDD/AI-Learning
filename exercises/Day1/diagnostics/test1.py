@@ -1,0 +1,5 @@
+# printf('what is your name?')
+name = input('what is your name? ')
+hour = float(input('How much time did you spend studying every day? '))
+week = float(input('How many days did you study this week? '))
+print(f'{name} plans to study {hour * week} hours this week.')
